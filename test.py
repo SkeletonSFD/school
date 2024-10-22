@@ -6,7 +6,7 @@ places_database =['san francisco',
                'череповец'
 ]
 
-parametrs = {'n_Tnqm lang':'ru'}
+parametrs = {'n_Tnqm&lang':'ru'}
 
 for cities_places in places_database:
     weather_forecast = requests.get(f'https://wttr.in/{cities_places}',params = parametrs)
