@@ -1,6 +1,5 @@
 import requests
 
-
 places=['san francisco',
                'london',
                'svo',
